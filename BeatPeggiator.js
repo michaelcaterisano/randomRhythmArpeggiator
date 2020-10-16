@@ -19,8 +19,6 @@ var prevDenominator = null;
 var availableNotes = [];
 var sentNotes = [];
 
-asdf;
-
 function HandleMIDI(event) {
     if (event instanceof NoteOn) {
         activeNotes.push(event);
